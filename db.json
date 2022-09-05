@@ -1,900 +1,369 @@
 {
-  "burgers": [
-    {
-      "id": 0,
-      "name": "Tribute Burger",
-      "restaurant": "Honest Burgers",
-      "web": "www.honestburgers.co.uk",
-      "description": "A mouth-watering honest beef burger",
-      "ingredients": [
-        "beef",
-        "american cheese",
-        "burger sauce",
-        "french mustard",
-        "pickes",
-        "onion",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "75",
-          "line1": "Venn Street",
-          "line2": "Clapham",
-          "postcode": "SW4 0BD",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Pulled Mooshie",
-      "restaurant": "Mooshies",
-      "web": "www.veganburger.org",
-      "description": "Spicy vegan burger with jackfruit",
-      "ingredients": [
-        "jackfruit",
-        "coleslaw",
-        "gluten free bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "104",
-          "line1": "Brick Lane",
-          "line2": "Shoreditch",
-          "postcode": "E1 6RL",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Krabby Patty",
-      "restaurant": "Krusty Krab",
-      "web": "https://twitter.com/SpongeBob",
-      "description": "The only people who don't like a Krabby Patty have never tasted one.",
-      "ingredients": [
-        "bun",
-        "patty",
-        "ketchup",
-        "mustard",
-        "pickles",
-        "onions",
-        "lettuce",
-        "cheese",
-        "tomato",
-        "bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "831",
-          "line1": "Bottom Feeder Lane",
-          "line2": "",
-          "postcode": "",
-          "country": "Bikini Bottom, Pacific Ocean"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "The Good Burger",
-      "restaurant": "Good Burger",
-      "web": "https://en.wikipedia.org/wiki/Good_Burger",
-      "description": "Welcome to Good Burger, home of the Good Burger, can I take your order?",
-      "ingredients": [
-        "bun",
-        "tomato",
-        "Ed's secret sauce",
-        "lettuce",
-        "onions",
-        "cheese"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "000",
-          "line1": "Good Burger",
-          "line2": "437 Glendora Ave.",
-          "postcode": "CA",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Crunchy Nacho Burger",
-      "restaurant": "Max Burgers",
-      "web": "https://www.max.se/maten/meny/burgare/crunchy-nacho-burger/",
-      "description": "The best combination of crunchiness and softness, all in one single burger",
-      "ingredients": [
-        "sesame bun",
-        "salsa",
-        "cheddar",
-        "nachos",
-        "beef",
-        "tomato",
-        "pickled onion",
-        "lettuce",
-        "jalapeño mayonnaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "48D",
-          "line1": "Skeppsbrogatan",
-          "line2": "Luleå",
-          "postcode": "971 25",
-          "country": "Sweden"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Barbie Burger",
-      "restaurant": "Flower Burger",
-      "web": "https://www.flowerburger.it/",
-      "description": "From a pink explosion was born Barbie Burger, a special edition in partnership with Mattel",
-      "ingredients": [
-        "pink bun",
-        "lentil and beetroot burger",
-        "tomatoes",
-        "gentilina salad",
-        "barbie hummus",
-        "barbie mayo"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "Porta Genova",
-          "line2": "Via Tortona",
-          "postcode": "20144",
-          "country": "Italy"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Curry On My Wayward Bun",
-      "restaurant": "Bob's Burgers",
-      "web": "https://bobs-burgers.fandom.com/wiki/Burger_of_the_Day",
-      "description": "N/A",
-      "ingredients": [
-        "beef",
-        "curry",
-        "bun"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "0",
-          "line1": "Ocean Avenue",
-          "line2": "NJ",
-          "postcode": "08260",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "MEISTER ALLER KLASSEN",
-      "restaurant": "Burgermeister",
-      "web": "https://burger-meister.de",
-      "description": "Fast food joint located in a public toilet? Why on earth?!",
-      "ingredients": [
-        "2 x meat",
-        "2 x cheese",
-        "bacon",
-        "barbequesauce",
-        "jalapenos"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "1",
-          "line1": "Potsdamer Platz",
-          "line2": "Berlin",
-          "postcode": "10785",
-          "country": "Germany"
-        },
-        {
-          "addressId": 1,
-          "number": "45",
-          "line1": "Eberswalder, Schönhauser Allee",
-          "line2": "Berlin",
-          "postcode": "10435",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Vegetarian Burger (Indian Style)",
-      "restaurant": "Indian Burgers",
-      "web": "https://www.cookwithmanali.com/vegetarian-burger-indian-style/",
-      "description": "With summer around the corner, I had to share a vegetarian burger recipe with you guys. Actually I plan to share more in the next month but I thought I will start with this Indian style Vegetarian Burger aka Masala Burger!",
-      "ingredients": [
-        "american cheese",
-        "burger sauce",
-        "french mustard",
-        "pickes",
-        "onion",
-        "Veggies"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "007",
-          "line1": "Line1",
-          "line2": "Line2",
-          "postcode": "",
-          "country": "India"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Fat Santa",
-      "restaurant": "Sky City Hamilton",
-      "web": "https://skycityhamilton.co.nz/eat-drink/eat-burger/",
-      "description": "A Christmas themed burger",
-      "ingredients": [
-        "chicken thigh",
-        "champagne ham",
-        "sage and onion stuffing",
-        "gravy mash",
-        "lettuce",
-        "tomato",
-        "cranberry sauce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "348",
-          "line1": "Victoria street",
-          "line2": "Hamilton Central, Hamilton",
-          "postcode": "3204",
-          "country": "New Zealand"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Blondie",
-      "restaurant": "Yankys",
-      "web": "http://yankyslambton.co.za/menu/",
-      "description": "Delicious steak burger",
-      "ingredients": [
-        "steak",
-        "BBQ sauce",
-        "bacon",
-        "egg",
-        "cheese",
-        "lettuce",
-        "tomato",
-        "onion",
-        "gerkins"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "114",
-          "line1": "Webber Road",
-          "line2": "Lambton, Germiston",
-          "postcode": "1414",
-          "country": "South Africa"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Monster Burger",
-      "restaurant": "Yankys",
-      "web": "http://yankyslambton.co.za/menu/",
-      "description": "Massive meaty burger - the size of a dinner plate",
-      "ingredients": [
-        "250g patty",
-        "bacon",
-        "cheese",
-        "2 eggs",
-        "steak",
-        "BBQ sauce",
-        "lettuce",
-        "tomato",
-        "onion",
-        "gerkins"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "114",
-          "line1": "Webber Road",
-          "line2": "Lambton, Germiston",
-          "postcode": "1414",
-          "country": "South Africa"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Buffalo chicken burger",
-      "restaurant": "Meat Mission",
-      "web": "http://meatliquor.com/",
-      "description": "Large, messy, super tasty buffalo chicken burger",
-      "ingredients": [
-        "Fried chicken breast",
-        "House-made buffalo sauce",
-        "Lettuce",
-        "Red onions",
-        "Blue cheese sauce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "15",
-          "line1": "Hoxton Market,",
-          "line2": "Hackney, London",
-          "postcode": "N1 6HG",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Cheatday Burger",
-      "restaurant": "Burgeramt",
-      "web": "https://www.burgeramt.com/",
-      "description": "Perfect when you need a day off from your workout routine",
-      "ingredients": [
-        "double beef",
-        "chilli-cheese sauce",
-        "2 slices cheddar cheese",
-        "crispy bacon stripes",
-        "nachos",
-        "mayonnaise",
-        "mustard"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "21 - 22",
-          "line1": "Krossener Straße",
-          "line2": "Berlin",
-          "postcode": "10245",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "name": "The Truffler (vegan)",
-      "restaurant": "Byron Burgers",
-      "web": "https://www.byron.co.uk/",
-      "description": "Beyond Meat patty, crispy onions, mushrooms, pickled red onions, lettuce American mustard, truffle ‘cheese’ fondue, truffle ‘mayo’",
-      "ingredients": [
-        "1/4 Beyond Meat patty",
-        "crispy onions",
-        "sauteed mushrooms",
-        "pickled red onions",
-        "lettuce",
-        "American mustard",
-        "truffle vegan cheese fondue",
-        "truffle vegan mayo"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "41-45",
-          "line1": "The Cut",
-          "line2": "London",
-          "postcode": "SE1 8LF",
-          "country": "United Kingdom"
-        },
-        {
-          "addressId": 1,
-          "number": "The Loft",
-          "line1": "Westfield Shopping Centre",
-          "line2": "London",
-          "postcode": "W12 7GF",
-          "country": "United Kingdom"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Aloette Buger",
-      "restaurant": "Aloette",
-      "web": "https://aloetterestaurant.com/",
-      "description": "Haute cuisine meets cravings for cheeseburgers.",
-      "ingredients": [
-        "6oz beef patty, served medium",
-        "griddled beaufort cheese",
-        "cheddar mayo",
-        "shredded lettuce",
-        "potato roll"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "163",
-          "line1": "Spadina Ave",
-          "line2": "Toronto",
-          "postcode": "M5V 2A5",
-          "country": "Canada"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "name": "BBQ Burger",
-      "restaurant": "Fresh Plant Powered",
-      "web": "https://freshplantpowered.com/",
-      "description": "Vegan burger made from whole, natural ingredients.",
-      "ingredients": [
-        "house-made grain burger",
-        "bbq sauce",
-        "quinoa onion rings",
-        "vegan garlic mayo",
-        "napa cabbage",
-        "banana chillies",
-        "tomato",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "147",
-          "line1": "Spadina Ave",
-          "line2": "Toronto",
-          "postcode": "M5V 2L7",
-          "country": "Canada"
-        },
-        {
-          "addressId": 1,
-          "number": "326",
-          "line1": "Bloor Street West",
-          "line2": "Toronto",
-          "postcode": "M5S 1W5",
-          "country": "Canada"
-        },
-        {
-          "addressId": 2,
-          "number": "894",
-          "line1": "Queen Street West",
-          "line2": "Toronto",
-          "postcode": "M6J 1G3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 3,
-          "number": "90",
-          "line1": "Eglinton Avenue East",
-          "line2": "Toronto",
-          "postcode": "M4P 2Y3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 4,
-          "number": "47",
-          "line1": "Front Street East",
-          "line2": "Toronto",
-          "postcode": "M5E 1B3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 5,
-          "number": "95",
-          "line1": "Queen Elizabeth Blvd",
-          "line2": "Etobicoke",
-          "postcode": "M8Z 1P3",
-          "country": "Canada"
-        },
-        {
-          "addressId": 6,
-          "number": "8768",
-          "line1": "Sunset Blvd",
-          "line2": "Los Angeles",
-          "postcode": "90069",
-          "country": "United States"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Carroll's Cheese Burger",
-      "restaurant": "Carroll's Pub Worms",
-      "web": "https://www.carrolls-pub-worms.de/",
-      "description": "Tasty black angus beef burger.",
-      "ingredients": [
-        "Irish black angus beef",
-        "tomato",
-        "lettuce",
-        "caramelized onions",
-        "pickles",
-        "cheddar cheese",
-        "tomato relish"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "54",
-          "line1": "Rheinstraße",
-          "line2": "Worms",
-          "postcode": "67547",
-          "country": "Germany"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Mojitto Burger",
-      "restaurant": "Burger King India",
-      "web": "www.mojitto.com",
-      "description": "Burger a day keeps the fat away",
-      "ingredients": [
-        "bread",
-        "maida",
-        "chick",
-        "patty"
-      ],
-      "addresses": [
-        {
-          "addressID": 0,
-          "number": "8A",
-          "line1": "Kaythye millath street",
-          "postcode": "620020",
-          "country": "India"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Double Slab Burger",
-      "restaurant": "Slab Burgers",
-      "web": "www.slabburgers.com",
-      "description": "taste of hormone-free running cows",
-      "ingredients": [
-        "beef",
-        "caramelized onions",
-        "slab sauce",
-        "pickles",
-        "mushrooms",
-        "tomato",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "47",
-          "line1": "Charles Street West",
-          "line2": "Toronto, Ontario",
-          "postcode": "M4Y 2R4",
-          "country": "Canada"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Du Brown",
-      "restaurant": "Du Brown Burger Café",
-      "web": "https://www.dubrown.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "bacon",
-        "caramelized onions",
-        "cheddar cheese",
-        "barbecue sauce",
-        "onion rings",
-        "jalepeños",
-        "tomato",
-        "lettuce",
-        "chipote mayonaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "rue St Léonard",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Melting Potes",
-      "restaurant": "Melting Potes Nantes",
-      "web": "https://www.meltingpotesnantes.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "poutine",
-        "raclette cheese",
-        "honey mustard sauce",
-        "goats cheese",
-        "crispy onions"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "12",
-          "line1": "boulevard de la Prairie au Duc",
-          "line2": "Ile de Nantes, Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Big Fernand",
-      "restaurant": "Big Fernand",
-      "web": "https://bigfernand.com/",
-      "description": "L'atelier du Hamburgé - The burger workshop",
-      "ingredients": [
-        "beef",
-        "sundried tomates",
-        "tatar sauce",
-        "confit onions",
-        "blue cheese",
-        "smokey bacon"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "7",
-          "line1": "rue des Halles",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "3",
-          "line1": "Place de Béthune",
-          "line2": "Lille",
-          "postcode": "59000",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "6",
-          "line1": "place Jean Jaurès",
-          "line2": "Montpellier",
-          "postcode": "34000",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "86",
-          "line1": "Boulevard du Montparnasse",
-          "line2": "Paris",
-          "postcode": "75014",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "55",
-          "line1": "rue de Faubourg Poissonnière",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        },
-        {
-          "addressId": 5,
-          "number": "4",
-          "line1": "rue du Parchemin",
-          "line2": "Strasbourg",
-          "postcode": "67000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "name": "PNY Burger",
-      "restaurant": "PNY Burger",
-      "web": "https://pnyburger.com/",
-      "description": "Home of the no bullshit burger",
-      "ingredients": [
-        "beef",
-        "poutine",
-        "raclette cheese",
-        "honey mustard sauce",
-        "goats cheese",
-        "crispy onions"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "50",
-          "line1": "rue de Cautartin",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "120",
-          "line1": "rue du Faubourg St Antoine",
-          "line2": "Paris",
-          "postcode": "75012",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "1",
-          "line1": "rue Perrée",
-          "line2": "Paris",
-          "postcode": "75003",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "96",
-          "line1": "rue Oberkampf",
-          "line2": "Paris",
-          "postcode": "75011",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "24",
-          "line1": "rue Pierre Fontaine",
-          "line2": "Paris",
-          "postcode": "75009",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "name": "231 East",
-      "restaurant": "231 East Street",
-      "web": "https://www.231-east.fr/",
-      "description": "True New York style burger in France",
-      "ingredients": [
-        "beef",
-        "smoked bacon",
-        "chicken",
-        "veggie burgers",
-        "brioche bun",
-        "honey mustard sauce",
-        "onion chutney",
-        "pepper sauce",
-        "avacado"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "7",
-          "line1": "rue de la Couronne",
-          "line2": "Aix-en-Provence",
-          "postcode": "13100",
-          "country": "France"
-        },
-        {
-          "addressId": 1,
-          "number": "9",
-          "line1": "faubourg Sainte-Claire",
-          "line2": "Annecy",
-          "postcode": "7400",
-          "country": "France"
-        },
-        {
-          "addressId": 2,
-          "number": "10",
-          "line1": "Grande rue",
-          "line2": "Grenoble",
-          "postcode": "38000",
-          "country": "France"
-        },
-        {
-          "addressId": 3,
-          "number": "2",
-          "line1": "rue de la Pépinière",
-          "line2": "Paris",
-          "postcode": "75008",
-          "country": "France"
-        },
-        {
-          "addressId": 4,
-          "number": "",
-          "line1": "boulevard Géneral de Gaulle",
-          "line2": "Nantes",
-          "postcode": "44000",
-          "country": "France"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Cajun Black Bean Burger",
-      "restaurant": "The Chicago Diner",
-      "web": "www.veggiediner.com",
-      "description": "a hearty veggie burger with a kick that goes great with sweet potato fries",
-      "ingredients": [
-        "spicy black bean veggie patty",
-        "sautéed onions",
-        "mushrooms",
-        "spinach",
-        "tomato",
-        "fried jalapeño",
-        "cheddar sauce",
-        "creole mustard"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "3411",
-          "line1": "N Halsted St",
-          "line2": "Chicago, Illinois",
-          "postcode": "60657",
-          "country": "USA"
-        },
-        {
-          "addressId": 1,
-          "number": "2333",
-          "line1": "N Milwaukee Ave",
-          "line2": "Chicago, Illinois",
-          "postcode": "60647",
-          "country": "USA"
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Hatch Green Chile Bacon Burger",
-      "restaurant": "Whataburger",
-      "web": "www.whataburger.com",
-      "description": "burger with hatch green chiles, bacon and cheese",
-      "ingredients": [
-        "beef",
-        "cheese",
-        "bacon",
-        "hatch green chiles",
-        "mayonnaise"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "984",
-          "line1": "388 E Stacy Rd",
-          "line2": "Allen, TX",
-          "postcode": "75002",
-          "country": "USA"
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "name": "The Street Burgers and Coctail Bar Prague 1",
-      "restaurant": "The Street",
-      "web": "www.thestreet.cz",
-      "description": "American, Bar, International, European, Vegetarian Friendly",
-      "ingredients": [
-        "beef",
-        "cheddar cheese",
-        "blue cheese",
-        "onion",
-        "mozzarella",
-        "bacon",
-        "lettuce"
-      ],
-      "addresses": [
-        {
-          "addressId": 0,
-          "number": "11",
-          "line1": "Konviktska",
-          "line2": "Prague",
-          "postcode": "110 00",
-          "country": "The Czech Republic"
-        }
-      ]
-    }
-  ]
+   "blogs": [
+      {
+         "counter": 5000,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "The Southeast African country of Mozambique encompasses an area of 801,590 square km and houses the population of around 28,829,476 inhabitants. The population density in Mozambique is 28.7 persons per square km. The country is bordered by Malawi and Zambia to the northwest and South Africa and Eswatini to the southwest. Tanzania and Zimbabwe are Mozambique’s neighbors to the north and west, respectively. The country has a coastline on the Indian Ocean to the east. The capital of Mozambique is Maputo.",
+         "favorite": false,
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fcapital-of-mozambique.jpg_1638919098582?alt=media&token=56bb5394-dc0e-4d8d-9a39-59c91fc23a72",
+         "name": "capital-of-mozambique.jpg_1638919098582",
+         "time": "11:18 PM",
+         "timeStamp": 1638919099568,
+         "title": "Maputo",
+         "uid": "BKotgWtsNTaC96aZ8dZxuGiw4813",
+         "userName": "Miracle Kanyandula"
+      },
+      {
+         "counter": 4990,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Cape Maclear or Chembe is a town in the Mangochi District of Malawi's Southern Region. The town, on the Nankumba Peninsula, is on the southern shore of Lake Malawi and is the busiest resort on Lake Malawi.[2] Cape Maclear is close to the islands of Domwe and Thumbwe on Lake Malawi,[3] and is in Lake Malawi National Park.",
+         "favorite": false,
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Flake-04.jpg_1638919712842?alt=media&token=476b782e-6945-435f-9e5f-3e6b78e3ac89",
+         "name": "lake-04.jpg_1638919712842",
+         "time": "11:28 PM",
+         "timeStamp": 1638919713761,
+         "title": "Cape Maclear",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 5000,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Lilongwe became Malawi’s capital in 1975, a role previously filled by Zomba. It owes its status to Dr Hastings Banda, the country’s first President, who was born just north of the town. The Old Town is distinct and separate from the new Capital City. While the former has all the appearance of a traditional African settlement, the City has much in common with other twentieth century urban developments around the world. Its gleaming modern buildings in their spacious garden-like settings, contrasts with the hustle and bustle of Old Town. Both of these different parts of the town are worth touring. The modern shops of the City are complemented by the busy streets and walled market of Old Town, which even still has its golf club from colonial times. Lilongwe’s range of services and facilities is unsurpassed except, possibly, in Blantyre. Of the modern shopping precincts, Old Town Mall is the best, particularly for those looking for quality souvenirs. As well as African Habitat, with its locally crafted ornaments and furnishings, there is one of Central Africana’s galleries: full of fascinating books and modern and historical maps and prints.",
+         "favorite": false,
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2F03491.jpg_1638920802615?alt=media&token=d7cd3715-595c-411c-89f1-482fb3f62f72",
+         "name": "03491.jpg_1638920802615",
+         "time": "11:46 PM",
+         "timeStamp": 1638920804126,
+         "title": "Lilongwe",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 5000,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Zomba is a city in southern Malawi. It was Malawi’s capital until 1975. The British colonial past is evident in the architecture. The National Herbarium and Botanic Gardens houses rare and medicinal plants. The city is at the foot of the Zomba Plateau, which has forest trails, waterfalls and sweeping views over the surrounding plains. The plateau is home to baboons, giant butterflies and raptors.",
+         "favorite": false,
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FChancellor_college_zomba.jpg_1638921019950?alt=media&token=b204718b-cb17-40b1-8d88-a842f4d30b40",
+         "name": "Chancellor_college_zomba.jpg_1638921019950",
+         "time": "11:50 PM",
+         "timeStamp": 1638921022129,
+         "title": "Zomba",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4996,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Luanda, the capital of Angola, is a port city on the west coast of Southern Africa. A seafront promenade known as the Marginal runs alongside Luanda Bay. Nearby is the well-preserved 16th-century Fortress of São Miguel, which now contains the Museum of the Armed Forces. The fort has views of the harbor and the Ilha do Cabo, a long, thin peninsula in the bay that’s home to beaches, bars and restaurants.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FLuanda-Angola.jpg_1638921215803?alt=media&token=2693d597-8996-4286-b66b-65b125ee9f4c",
+         "name": "Luanda-Angola.jpg_1638921215803",
+         "time": "11:53 PM",
+         "timeStamp": 1638921217260,
+         "title": "Luanda",
+         "uid": "BKotgWtsNTaC96aZ8dZxuGiw4813",
+         "userName": "Miracle Kanyandula"
+      },
+      {
+         "counter": 4995,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Kigali is the capital city of Rwanda, roughly in the center of the country. It sprawls across numerous hills, ridges and valleys, and has a vibrant restaurant and nightlife scene. The Kigali Genocide Memorial documents the 1994 mass killings in Rwanda, associated with the country’s civil war. The city’s Caplaki Crafts Village has stalls selling traditional handicrafts, including woodcarvings and woven baskets.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(1).jfif_1638921313644?alt=media&token=f0432f1c-5fc2-4bf8-ae61-528803dcbf85",
+         "name": "download (1).jfif_1638921313644",
+         "time": "11:55 PM",
+         "timeStamp": 1638921314206,
+         "title": "Kigali",
+         "uid": "BKotgWtsNTaC96aZ8dZxuGiw4813",
+         "userName": "Miracle Kanyandula"
+      },
+      {
+         "counter": 4994,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Gaborone is the capital city of Botswana. It’s known for the Gaborone Game Reserve, sheltering native animals like wildebeest and impala, plus resident and migratory birds. To the city’s southwest, rhinos and giraffes inhabit the Mokolodi Nature Reserve. Footpaths lead to city views at the summit of Kgale Hill. In the city center, the National Museum and Art Gallery displays art and cultural artifacts.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(2).jfif_1638921413006?alt=media&token=a6edf9c3-70e8-4ff6-b59e-be2588600172",
+         "name": "download (2).jfif_1638921413006",
+         "time": "11:56 PM",
+         "timeStamp": 1638921413531,
+         "title": "Gaborone",
+         "uid": "BKotgWtsNTaC96aZ8dZxuGiw4813",
+         "userName": "Miracle Kanyandula"
+      },
+      {
+         "counter": 4993,
+         "date": "Tuesday, December 07, 2021",
+         "desc": "Libreville is the capital city of Gabon, a country on the coast of Central Africa. Its seafront boulevard has parks and sculptures. The National Museum of Arts and Tradition exhibits tribal crafts such as masks and wood-carved artifacts. Nearby, the colossal Presidential Palace dates from the 1970s. Mont-Bouët open-air market sells a wide range of goods, from household items and local produce to traditional medicine.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(3).jfif_1638921539731?alt=media&token=d2a2827b-25f1-4bce-9f28-05924d1c9841",
+         "name": "download (3).jfif_1638921539731",
+         "time": "11:59 PM",
+         "timeStamp": 1638921540306,
+         "title": "Libreville",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4992,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Kinshasa, formerly Léopoldville, is the capital and the largest city of the Democratic Republic of the Congo. With a total population of 15 million as of 2021, it is the second most populous city in Africa.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(4).jfif_1638921599564?alt=media&token=82a58b09-b501-49db-9b65-d18c61214b08",
+         "name": "download (4).jfif_1638921599564",
+         "time": "12:00 AM",
+         "timeStamp": 1638921604115,
+         "title": "Kinshasa",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4991,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Mombasa is a coastal city in southeastern Kenya along the Indian Ocean. The city is known as the white and blue city in Kenya. It is the country's oldest and second-largest city, with a population of about 1,208,333 people according to the 2019 census.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(5).jfif_1638921690099?alt=media&token=f7b0ed8e-479d-4c7c-9e41-4ee24ecbfbb6",
+         "name": "download (5).jfif_1638921690099",
+         "time": "12:01 AM",
+         "timeStamp": 1638921691061,
+         "title": "Mombasa",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4981,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Lagos, Nigeria’s largest city, sprawls inland from the Gulf of Guinea across Lagos Lagoon. Victoria Island, the financial center of the metropolis, is known for its beach resorts, boutiques and nightlife. To the north, Lagos Island is home to the National Museum Lagos, displaying cultural artifacts and craftworks. Nearby is Freedom Park, once a colonial-era prison and now a major venue for concerts and public events.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fimages%20(2).jfif_1638923522352?alt=media&token=2eaef829-c009-43cf-b2e9-9ff4508b48c7",
+         "name": "images (2).jfif_1638923522352",
+         "time": "12:32 AM",
+         "timeStamp": 1638923523018,
+         "title": "Lagos",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4989,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Dublin, capital of the Republic of Ireland, is on Ireland’s east coast at the mouth of the River Liffey. Its historic buildings include Dublin Castle, dating to the 13th century, and imposing St Patrick’s Cathedral, founded in 1191. City parks include landscaped St Stephen’s Green and huge Phoenix Park, containing Dublin Zoo. The National Museum of Ireland explores Irish heritage and culture",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(6).jfif_1638927991270?alt=media&token=f999cb1a-cb89-4a12-83cd-4960059bc0c7",
+         "name": "download (6).jfif_1638927991270",
+         "time": "1:46 AM",
+         "timeStamp": 1638927991760,
+         "title": "Dublin",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4988,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Explore the city Wild Lights at Dublin Zoo A magical tour of glowing world landmarks. Advent: Watching and Waiting Sun 5th Dec until Sun 5th Dec Advent: Watching and Waiting Reflective music, a peaceful atmosphere, and suggestions for creation",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fimage.jpg_1638977682263?alt=media&token=70757feb-bfb9-4b94-971e-4d9078d033f5",
+         "name": "image.jpg_1638977682263",
+         "time": "3:34 PM",
+         "timeStamp": 1638977683662,
+         "title": "Dublin",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4987,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "TONIGHT\nAny lingering showers will clear as the strong winds ease. It will be generally dry and clear tonight with some frost and possible ice. Feeling cold with lows of 0 to 3 degrees Celsius and a fresh to moderate westerly breeze.\n\nTOMORROW - THURSDAY 9TH DECEMBER\nOverall cloudy to begin on Thursday with scattered outbreaks of rain and moderate southerly winds. A clearance to sunny spells and scattered blustery showers will follow from the west during the afternoon with freshening westerly winds. Highest temperatures of 9 to 11 degrees Celsius.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2F20.png_1638988196227?alt=media&token=b71827b5-dbec-4b02-901f-f083fee1fc0e",
+         "name": "20.png_1638988196227",
+         "time": "6:29 PM",
+         "timeStamp": 1638988196770,
+         "title": "Dublin",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4973,
+         "date": "Wednesday, December 08, 2021",
+         "desc": "Dublin Castle is a major Irish government complex, conference centre, and tourist attraction, of significant historical importance. It is located off Dame Street in central Dublin. Until 1922 it was the seat of the British government's administration in Ireland. Most of the current construction dates from the 18th century, though a castle has stood on the site since the days of King John, the first Lord of Ireland. The Castle served as the seat of English, then later British, government of Ireland under the Lordship of Ireland, the Kingdom of Ireland, and the United Kingdom of Great Britain and Ireland. After the signing of the Anglo-Irish Treaty in December 1921, the complex was ceremonially handed over to the newly formed Provisional Government led by Michael Collins. It now hosts the inauguration of each President of Ireland and various State receptions. The castle was built by the dark pool which gave Dublin its name. This pool lies on the lower course of the River Poddle before its confluence with the River Liffey; when the castle was built, the Liffey was much wider, and the castle was effectively defended by both rivers. The Poddle today runs under the complex. \n",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fimages%20(3).jfif_1638988292783?alt=media&token=a476de9a-53e3-405a-af7b-b5fb0fade327",
+         "name": "images (3).jfif_1638988292783",
+         "time": "6:31 PM",
+         "timeStamp": 1638988293388,
+         "title": "Dublin Castle",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4985,
+         "date": "Friday, December 10, 2021",
+         "desc": "Gitega, formerly Kitega, is the capital of Burundi. Located in the centre of the country, in the Burundian central plateau roughly 62 kilometres east of Bujumbura, Gitega was the seat of the Kingdom of Burundi until its abolition in 1966",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fgitega.jpeg_1639139485428?alt=media&token=e6439f7b-d19c-4b4d-9472-ffd388ad17de",
+         "name": "gitega.jpeg_1639139485428",
+         "time": "12:31 PM",
+         "timeStamp": 1639139485939,
+         "title": "Gitega",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4930,
+         "date": "Friday, December 10, 2021",
+         "desc": "Cairo, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts. Nearby, Giza is the site of the iconic pyramids and Great Sphinx, dating to the 26th century BC. In Gezira Island’s leafy Zamalek district, 187m Cairo Tower affords panoramic city views.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(7).jfif_1639140065817?alt=media&token=f6b4aa9e-71a6-4f8d-94cc-bbef2677c396",
+         "name": "download (7).jfif_1639140065817",
+         "time": "12:41 PM",
+         "timeStamp": 1639140066432,
+         "title": "Cairo",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4895,
+         "date": "Friday, December 10, 2021",
+         "desc": "Addis Ababa, Ethiopia’s sprawling capital in the highlands bordering the Great Rift Valley, is the country’s commercial and cultural hub. Its National Museum exhibits Ethiopian art, traditional crafts and prehistoric fossils, including replicas of the famous early hominid, \"Lucy.\" The burial place of the 20th-century emperor Haile Selassie, copper-domed Holy Trinity Cathedral, is a neo-baroque architectural landmark.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2F56.jpg_1639140718916?alt=media&token=2333748b-66d0-4cb9-ac90-caa3794d9975",
+         "name": "56.jpg_1639140718916",
+         "time": "12:51 PM",
+         "timeStamp": 1639140719835,
+         "title": "Addis Ababa",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4982,
+         "date": "Friday, December 10, 2021",
+         "desc": "Khartoum or Khartum is the capital of Sudan. With a population of 5,274,321, its metropolitan area is the largest in Sudan. It is located at the confluence of the White Nile, flowing north from Lake Victoria, and the Blue Nile, flowing west from Lake Tana in Ethiopia.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fdownload%20(9).jfif_1639141022915?alt=media&token=521eccef-56c3-4d64-9e59-1a5295baa02e",
+         "name": "download (9).jfif_1639141022915",
+         "time": "12:57 PM",
+         "timeStamp": 1639141023476,
+         "title": "Khartoum",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4981,
+         "date": "Wednesday, January 26, 2022",
+         "desc": "Bamako (Bambara: ߓߡߊ߬ߞߐ߬ Bàmakɔ̌, Fula: 𞤄𞤢𞤥𞤢𞤳𞤮 Bamako) is the capital and largest city of Mali, with a 2009 population of 1,810,366 and an estimated 2020 population of 2.71 million.[8] It is located on the Niger River, near the rapids that divide the upper and middle Niger valleys in the southwestern part of the country.\n\nBamako is the nation's administrative centre. The city proper is a cercle in its own right. Bamako's river port is located in nearby Koulikoro, along with a major regional trade and conference center. Bamako is the seventh-largest West African urban center after Lagos, Abidjan, Kano, Ibadan, Dakar, and Accra. Locally manufactured goods include textiles, processed meat, and metal goods as well as mining. Commercial fishing occurs on the Niger River.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fmaxresdefault.jpg_1643206855654?alt=media&token=45499388-349c-46ad-aca0-ecdbcc229e85",
+         "name": "maxresdefault.jpg_1643206855654",
+         "time": "2:20 PM",
+         "timeStamp": 1643206856923,
+         "title": "Bamako",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4980,
+         "date": "Monday, April 25, 2022",
+         "desc": "Kyiv, until recently Kiev, is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. As of 1 January 2021, its population was 2,962,180, making Kyiv the seventh-most populous city in Europe.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2F2000.jpg_1650911961998?alt=media&token=ec35d255-3f24-4a94-b45c-92374a43ffaa",
+         "name": "2000.jpg_1650911961998",
+         "time": "7:39 PM",
+         "timeStamp": 1650911963010,
+         "title": "Kyiv",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4979,
+         "date": "Tuesday, April 26, 2022",
+         "desc": "Wrocław is a city on the Oder River in western Poland. It’s known for its Market Square, lined with elegant townhouses and featuring a modern fountain. Also on the square is the Gothic Old Town Hall, with its large astronomical clock. Nearby is the Panorama of Racławice, a painting depicting the 1794 battle for independence. The Centennial Hall auditorium, with its giant dome and tall spire, lies across the river.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FWroclaw.jpg_1650974534761?alt=media&token=334f8b50-2eec-4137-b8b3-5f83d2dacf5c",
+         "name": "Wroclaw.jpg_1650974534761",
+         "time": "1:02 PM",
+         "timeStamp": 1650974535250,
+         "title": "Wrocław",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4978,
+         "date": "Tuesday, April 26, 2022",
+         "desc": "Durban, a coastal city in eastern South Africa’s KwaZulu-Natal province, is known for its African, Indian and colonial influences. Refurbished for soccer’s 2010 World Cup, the seafront promenade runs from uShaka Marine World, a huge theme park with an aquarium, to the futuristic Moses Mabhida Stadium. The Durban Botanical Gardens showcases African plant species",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FDurban.jpg_1650979469768?alt=media&token=07f3cce9-7223-4848-9456-128e42286e16",
+         "name": "Durban.jpg_1650979469768",
+         "time": "2:24 PM",
+         "timeStamp": 1650979471525,
+         "title": "Durban",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4977,
+         "date": "2022-01-22 10:00:00",
+         "desc": "The Comoros is a volcanic archipelago off Africa’s east coast, in the warm Indian Ocean waters of the Mozambique Channel. The nation state’s largest island, Grande Comore (Ngazidja) is ringed by beaches and old lava from active Mt. Karthala volcano. Around the port and medina in the capital, Moroni, are carved doors and a white colonnaded mosque, the Ancienne Mosquée du Vendredi, recalling the islands’ Arab heritage",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fcomoros.jpg_1650981194431?alt=media&token=8b644810-99f6-46b9-ae5a-bca1a436632e",
+         "name": "comoros.jpg_1650981194431",
+         "time": "2:53 PM",
+         "timeStamp": "2022-04-26T14:08:06Z",
+         "title": "The Comoros",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4976,
+         "date": "Tuesday, April 26, 2022",
+         "desc": "Nairobi is Kenya’s capital city. In addition to its urban core, the city has Nairobi National Park, a large game reserve known for breeding endangered black rhinos and home to giraffes, zebras and lions. Next to it is a well-regarded elephant orphanage operated by the David Sheldrick Wildlife Trust. Nairobi is also often used as a jumping-off point for safari trips elsewhere in Kenya.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FNairobi.jpg_1650981939670?alt=media&token=6499738a-2bb2-4b78-951d-1b59628bedfe",
+         "name": "Nairobi.jpg_1650981939670",
+         "originalDate": "2022-04-26",
+         "time": "3:05 PM",
+         "timeStamp": "Nairobi",
+         "title": "Nairobi",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4975,
+         "date": "Tuesday, April 26, 2022",
+         "desc": "Dar es Salaam, a major city and commercial port on Tanzania’s Indian Ocean coast, grew from a fishing village. The open-air Village Museum has re-created the traditional homes of local and other Tanzanian tribes and hosts tribal dancing. It’s part of the National Museum, which offers Tanzanian history exhibits, including the fossils of human ancestors found by anthropologist Louis Leakey.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2FTanzania.jpg_1650986527394?alt=media&token=7cb49c84-4d78-47d6-99a4-ea9009724c6a",
+         "name": "Tanzania.jpg_1650986527394",
+         "time": "4:22 PM",
+         "timeStamp": 1650986528006,
+         "title": "Dar es Salaam",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4974,
+         "date": "Wednesday, May 04, 2022",
+         "desc": "Blantyre, city in Malawi and seat of the country’s judiciary. It lies in the Shire Highlands, in the southern part of the country. Blantyre lies at an elevation (3,409 feet [1,039 metres]) that moderates the tropical climate. It has a rainy season (December to March), a cool season (April to August), and a hot season (September to November).\n\nBlantyre was founded in 1876 as a Church of Scotland mission station and was named after explorer David Livingstone’s Scottish birthplace. In 1878 it became the base of the African Lakes Company, a Scottish firm, which laid the foundation for its later importance as a major commercial and distribution centre. It became a British consular post in 1883 and attained municipal status in 1895, making it Malawi’s oldest municipality. By World War I, Blantyre’s population included significant numbers of Africans from neighbouring districts and South Asian traders, adding to the town’s vibrancy.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fblantyre.jpg_1651699384769?alt=media&token=789bde02-903c-44f3-97f8-ebdf64df1929",
+         "name": "blantyre.jpg_1651699384769",
+         "time": "10:23 PM",
+         "timeStamp": 1651699385502,
+         "title": "Blantyre",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4947,
+         "date": "Wednesday, May 04, 2022",
+         "desc": "Harare, formerly Salisbury, capital of Zimbabwe, lying in the northeastern part of the country. The city was founded in 1890 at the spot where the British South Africa Company’s Pioneer Column halted its march into Mashonaland; it was named for Lord Salisbury, then British prime minister. The name Harare is derived from that of the outcast Chief Neharawe, who, with his people, occupied the kopje (the hill at the foot of which the commercial area grew) at the time the Pioneer Column arrived and seized the land. The city was created a municipality in 1897 and developed after the arrival of the railway (1899) from the port of Beira, Mozambique, becoming a market and mining centre. It was chartered as a city in 1935. Industrialization during and after World War II led to an influx of population. Salisbury was the capital of the colony of Southern Rhodesia, of the short-lived Federation of Rhodesia and Nyasaland (1953–63), and of Rhodesia during the period of the unilateral declaration of independence (1965–79). It was retained as capital by the new government of independent Zimbabwe (1980) and renamed Harare.\n\nThe city is modern and well-planned, with multistoried buildings and tree-lined avenues. It is the site of Anglican and Roman Catholic cathedrals, a Dutch Reformed church, the Queen Victoria Memorial Library and Museum, the National Archives, the University of Zimbabwe (opened 1957), and the Rhodes National Gallery.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fharare.jpg_1651699886980?alt=media&token=60913550-1335-42fd-ab52-f678c7f173b7",
+         "name": "harare.jpg_1651699886980",
+         "time": "10:31 PM",
+         "timeStamp": 1651699887774,
+         "title": "Harare",
+         "uid": "UdS4uERnLMX7tPCR3uPswrlWcqk2",
+         "userName": "Kingsley Kanyandula"
+      },
+      {
+         "counter": 4972,
+         "date": "Friday, June 10, 2022",
+         "desc": "Kampala is Uganda's national and commercial capital bordering Lake Victoria, Africa's largest lake. Hills covered with red-tile villas and trees surround an urban centre of contemporary skyscrapers. In this downtown area, the Uganda Museum explores the country's tribal heritage through an extensive collection of artefacts. On nearby Mengo Hill is Lubiri Palace, the former seat of the Buganda Kingdom.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fkampala.jfif_1654877307181?alt=media&token=cae76600-924b-46c7-a556-72b346dadda2",
+         "name": "kampala.jfif_1654877307181",
+         "time": "5:08 PM",
+         "timeStamp": 1654877308057,
+         "title": "Kampala",
+         "uid": "CvCvktFDqRZx44sSZrodqyPwIqh2",
+         "userName": "Miracle Gausih"
+      },
+      {
+         "counter": 4971,
+         "date": "Monday, September 05, 2022",
+         "desc": "Kampala is the capital and largest city of Uganda. The city proper has a population of 1,680,000 and is divided into the five political divisions of Kampala Central Division, Kawempe Division, Makindye Division, Nakawa Division, and Rubaga Division.",
+         "image": "https://firebasestorage.googleapis.com/v0/b/travelmantics-6a12f.appspot.com/o/blog_images%2Fkampala.jfif_1662397673102?alt=media&token=9f3df83a-3955-4775-b506-276b088041c6",
+         "name": "kampala.jfif_1662397673102",
+         "time": "6:07 PM",
+         "title": "Kampala",
+         "uid": "GBr9JIDVHgSJoRkY7JEDp0K68sV2",
+         "userName": "Ephraim Kanyandula"
+      }
+   ]
 }
+
